@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "qdrant-langchain-qa"
+version = "0.1.0"
+description = ""
+authors = ["Kacper Łukawski <lukawski.kacper@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qdrant_langchain_qa"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<=3.11"
+jupyter = "^1.0.0"
+langchain = "^0.0.90"
+qdrant-client = "^1.0.1"
+wget = "^3.2"
+sentence-transformers = "^2.2.2"
+openai = "^0.26.5"
+jupyter-contrib-nbextensions = "^0.7.0"
+cohere = "^3.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
